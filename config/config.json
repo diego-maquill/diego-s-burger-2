@@ -1,11 +1,12 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "seq_burgers_db",
-    "host": "192.168.99.100",
+    "username": "rz0nyvqt5p982wxb",
+    "password": "yaxnoczid9l8210h",
+    "database": "yvar2il6m4tb63v8",
+    "host": "h2cwrn74535xdazj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
     "port": 3306,
-    "dialect": "mysql"
+    "operatorsAliases": false
   },
   "test": {
     "username": "root",
@@ -16,11 +17,13 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "rz0nyvqt5p982wxb",
+    "password": "yaxnoczid9l8210h",
+    "database": "yvar2il6m4tb63v8",
+    "host": "h2cwrn74535xdazj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
     "port": 3306,
-    "dialect": "mysql"
+    "use_env_variable": "JAWSDB_URL",
+    "operatorsAliases": false
   }
 }
